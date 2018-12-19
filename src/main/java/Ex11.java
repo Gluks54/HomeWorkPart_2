@@ -15,6 +15,4 @@ public class Ex11 {
                 .collect(Collectors.toSet());
         return temp;
     }
-
-
 }

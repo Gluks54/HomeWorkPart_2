@@ -8,7 +8,6 @@ public class Ex7 {
     // ja "e", jeżeli jest nieparzysta poprzedź ja "o".
     //   przykład:  [1,2,10] -> "o1,e2,e10"
 
-
     public static String funParz (ArrayList< Integer> arrayList){
 
         String temp = arrayList
@@ -21,8 +20,6 @@ public class Ex7 {
                             }
                         })
                 .collect( Collectors.joining(","));
-
-
         return temp;
     }
 }
